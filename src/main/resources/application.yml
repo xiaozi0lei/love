@@ -1,5 +1,9 @@
 server:
   port: 8888
+  tomcat:
+    remoteip:
+      protocol-header: X-Forwarded-Protof
+      protocol-header-https-value: https
 
 spring:
   datasource:
